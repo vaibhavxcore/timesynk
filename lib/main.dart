@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:timesynk/home_page.dart";
 
 void main() {
   runApp(MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       return MaterialApp(
         title: "timesync",
         debugShowCheckedModeBanner: false,
-        home: SafeArea(child: Text("time")),
+        home: HomePage(),
       );
 
   }
